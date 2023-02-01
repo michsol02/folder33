@@ -22177,20 +22177,42 @@ section.lazy-placeholder:after {
 .cid-sPGJf6nyEA .mbr-text {
   color: #465052;
 }
-.cid-sPGJ02aT0z {
-  padding-top: 30px;
-  padding-bottom: 45px;
+.cid-tuBQ4z7pkI {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #ffffff;
 }
-.cid-sPGJ02aT0z .mbr-text,
-.cid-sPGJ02aT0z blockquote {
+.cid-tuBQ4z7pkI .counter-container {
   color: #767676;
 }
-.cid-sPGJ02aT0z .mbr-text DIV {
-  text-align: left;
+.cid-tuBQ4z7pkI .counter-container ol {
+  margin-bottom: 0;
+  counter-reset: myCounter;
 }
-.cid-sPGJ02aT0z .mbr-text {
-  color: #465052;
+.cid-tuBQ4z7pkI .counter-container ol li {
+  margin-bottom: 1rem;
+}
+.cid-tuBQ4z7pkI .counter-container ol li {
+  list-style: none;
+  padding-left: .5rem;
+  position: relative;
+}
+.cid-tuBQ4z7pkI .counter-container ol li:before {
+  position: absolute;
+  left: -56px;
+  margin-top: -10px;
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 40px;
+  transition: all .2s;
+  color: #ffffff;
+  background: #149dcc;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 .cid-te6bT9WmnV {
   padding-top: 30px;
